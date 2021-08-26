@@ -1,6 +1,7 @@
 
 body {
     margin: 0;
+    margin-top: 15px;
     font-family: 'Poppins', sans-serif;
     background-color: #002547;
 }
@@ -406,14 +407,23 @@ nav .btn-nav-head {
     border: none;
 }
 
+.active-item p {
+    padding-left: 10px;
+}
+
+.active_item p {
+    padding-inline: 10px 17px;
+}
+
 .third-block_item p {
+    padding-left: 10px;
     margin: 0;
 }
 
 .third-block_btn {
     cursor: pointer;
     border: none;
-    padding-inline: 10px;
+    padding-inline: 10px 15px;
     background: rgba(255, 255, 255, 0.1);
 }
 
@@ -532,10 +542,10 @@ nav .btn-nav-head {
 }
 
 .fourth-screen_block {
-    width: auto;
+    width: 70%;
     max-width: 1146px;
-    height: auto;
     padding-top: 10px;
+    padding-block: 45px;
     margin-top: 60px;
     border-radius: 5px;
     border: 4px dashed rgba(102, 101, 101, 0.1);
@@ -552,6 +562,7 @@ nav .btn-nav-head {
     align-items: center;
     text-align: center;
     flex-wrap: wrap;
+    margin-block: 25px;
     margin-inline: 10px;
 }
 
@@ -834,6 +845,7 @@ nav .btn-nav-head {
 }
 
 .contact {
+    margin-top: 5px;
     display: flex;
     align-items: center;
 
@@ -844,7 +856,7 @@ nav .btn-nav-head {
     height: 30px;
     background: #000;
     border-radius: 10px;
-    margin-inline: 3px;
+    margin-right: 5px;
     border: 2px solid #fff;
 }
 
