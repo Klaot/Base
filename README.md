@@ -1,4 +1,4 @@
-# Free-PSD-FlexBox-
+# Free-PSD
 
 Free PSD layout, I used FlexBox technology
 
